@@ -5,7 +5,7 @@ const VideoDetail = ({video}) => {
   //own embed url
   if(!video)
   {
-    return <div>Start Searching!! </div>
+    return <div> </div>
   }
 
   const videoId=video.id.videoId;

@@ -18,10 +18,33 @@
 
 }
 
+.col-md-4-list-group{
+  float: right;
+  margin-top: -491px;
+  width:400px;
+}
+
 .list-group-item{
   cursor:pointer;;
 }
 
 .list-group-item:hover{
   background-color:#eee;
+}
+
+img{
+ height:64px;
+ width:64px;
+}
+.navbar-header
+{
+ margin-left:-436px;
+ height:64px;
+ width:64px;
+}
+
+nav{
+ background-color: #eaeaec;
+ height: 79px;
+ margin-top: -5px;
 }

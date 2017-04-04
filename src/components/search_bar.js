@@ -13,10 +13,10 @@ this.state = {term : ''}
 render(){
   return(
     <div className="search-bar">
-      <input
+      <input placeholder ="What do you want to watch"
         value={this.state.term}
         onChange={event=> this.onInputChange(event.target.value)}/>
-      
+
     </div>
   );
 }
